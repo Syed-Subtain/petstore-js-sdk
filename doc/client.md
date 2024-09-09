@@ -5,12 +5,10 @@ The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
-| `defaultHost` | `string` | *Default*: `'www.example.com'` |
 | `environment` | `Environment` | The API environment. <br> **Default: `Environment.Production`** |
 | `timeout` | `number` | Timeout for API calls.<br>*Default*: `0` |
 | `httpClientOptions` | `Partial<HttpClientOptions>` | Stable configurable http client options. |
 | `unstableHttpClientOptions` | `any` | Unstable configurable http client options. |
-| `customHeaderAuthenticationCredentials` | [`CustomHeaderAuthenticationCredentials`](auth/custom-header-signature.md) | The credential object for customHeaderAuthentication |
 
 ## HttpClientOptions
 
@@ -37,16 +35,12 @@ The API client can be initialized as follows:
 
 ```ts
 const client = new Client({
-  customHeaderAuthenticationCredentials: {
-    'api_key': 'api_key'
-  },
   timeout: 0,
   environment: Environment.Production,
-  defaultHost: 'www.example.com',
 });
 ```
 
-## Swagger Petstore - OpenAPI 3.0 Client
+## APIMATIC Calculator Client
 
 The gateway for the SDK. This class acts as a factory for the Controllers and also holds the configuration of the SDK.
 
@@ -54,7 +48,5 @@ The gateway for the SDK. This class acts as a factory for the Controllers and al
 
 | Name | Description |
 |  --- | --- |
-| pet | Gets PetController |
-| store | Gets StoreController |
-| user | Gets UserController |
+| simpleCalculator | Gets SimpleCalculatorController |
 
