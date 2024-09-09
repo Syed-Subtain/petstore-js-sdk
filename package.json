@@ -1,5 +1,5 @@
 {
-  "version": "1.2.4",
+  "version": "1.2.5",
   "license": "MIT",
   "sideEffects": false,
   "main": "dist/cjs/index.js",
@@ -57,7 +57,7 @@
     "url": "https://github.com/Syed-Subtain/petstore-js-sdk.git"
   },
   "bugs": {
-    "email": "support@apimatic.io"
+    "email": "apiteam@swagger.io"
   },
   "homepage": "https://sdks.io",
   "keywords": [
