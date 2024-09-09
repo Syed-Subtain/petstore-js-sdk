@@ -1,7 +1,7 @@
 
 # Status 1 Enum
 
-Order Status
+Status values that need to be considered for filter
 
 ## Enumeration
 
@@ -11,7 +11,7 @@ Order Status
 
 | Name |
 |  --- |
-| `Placed` |
-| `Approved` |
-| `Delivered` |
+| `Available` |
+| `Pending` |
+| `Sold` |
 

@@ -1,9 +1,11 @@
 
-# Status 2 Enum
+# Pet Status Enum
+
+pet status in the store
 
 ## Enumeration
 
-`Status2Enum`
+`PetStatusEnum`
 
 ## Fields
 

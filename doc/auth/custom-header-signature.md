@@ -13,7 +13,7 @@ Documentation for accessing and setting credentials for api_key.
 
 
 
-**Note:** Auth credentials can be set using `apiKeyCredentials` object in the client.
+**Note:** Auth credentials can be set using `customHeaderAuthenticationCredentials` object in the client.
 
 ## Usage Example
 
@@ -23,7 +23,7 @@ You must provide credentials in the client as shown in the following code snippe
 
 ```ts
 const client = new Client({
-  apiKeyCredentials: {
+  customHeaderAuthenticationCredentials: {
     'api_key': 'api_key'
   },
 });
