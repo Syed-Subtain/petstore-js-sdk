@@ -22,14 +22,14 @@ Find out more about Swagger: [http://swagger.io](http://swagger.io)
 Run the following command from your project directory to install the package from npm:
 
 ```ts
-npm install petstore-package-sdk@1.1.1
+npm install petstore-package-sdk@1.2.3
 ```
 
-For additional package details, see the [Npm page for the petstore-package-sdk@1.1.1 npm](https://www.npmjs.com/package/petstore-package-sdk/v/1.1.1).
+For additional package details, see the [Npm page for the petstore-package-sdk@1.2.3 npm](https://www.npmjs.com/package/petstore-package-sdk/v/1.2.3).
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.1.1/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.2.3/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -40,7 +40,7 @@ The following parameters are configurable for the API Client:
 | `timeout` | `number` | Timeout for API calls.<br>*Default*: `0` |
 | `httpClientOptions` | `Partial<HttpClientOptions>` | Stable configurable http client options. |
 | `unstableHttpClientOptions` | `any` | Unstable configurable http client options. |
-| `customHeaderAuthenticationCredentials` | [`CustomHeaderAuthenticationCredentials`](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.1.1/doc/auth/custom-header-signature.md) | The credential object for customHeaderAuthentication |
+| `customHeaderAuthenticationCredentials` | [`CustomHeaderAuthenticationCredentials`](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.2.3/doc/auth/custom-header-signature.md) | The credential object for customHeaderAuthentication |
 
 ### HttpClientOptions
 
@@ -80,16 +80,16 @@ const client = new Client({
 
 This API uses the following authentication schemes.
 
-* [`api_key (Custom Header Signature)`](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.1.1/doc/auth/custom-header-signature.md)
+* [`api_key (Custom Header Signature)`](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.2.3/doc/auth/custom-header-signature.md)
 
 ## List of APIs
 
-* [Pet](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.1.1/doc/controllers/pet.md)
-* [Store](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.1.1/doc/controllers/store.md)
-* [User](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.1.1/doc/controllers/user.md)
+* [Pet](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.2.3/doc/controllers/pet.md)
+* [Store](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.2.3/doc/controllers/store.md)
+* [User](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.2.3/doc/controllers/user.md)
 
 ## Classes Documentation
 
-* [ApiResponse](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.1.1/doc/api-response.md)
-* [ApiError](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.1.1/doc/api-error.md)
+* [ApiResponse](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.2.3/doc/api-response.md)
+* [ApiError](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.2.3/doc/api-error.md)
 
