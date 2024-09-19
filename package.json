@@ -1,5 +1,5 @@
 {
-  "version": "1.2.5",
+  "version": "1.23.456",
   "license": "MIT",
   "sideEffects": false,
   "main": "dist/cjs/index.js",
@@ -49,7 +49,7 @@
   "dependencies": {
     "@apimatic/authentication-adapters": "^0.5.4",
     "@apimatic/axios-client-adapter": "^0.3.4",
-    "@apimatic/core": "^0.10.13",
+    "@apimatic/core": "^0.10.14",
     "@apimatic/schema": "^0.7.12"
   },
   "repository": {
@@ -57,7 +57,7 @@
     "url": "https://github.com/Syed-Subtain/petstore-js-sdk.git"
   },
   "bugs": {
-    "email": "apiteam@swagger.io"
+    "email": "support@apimatic.io"
   },
   "homepage": "https://sdks.io",
   "keywords": [

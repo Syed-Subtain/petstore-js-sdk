@@ -1,46 +1,48 @@
 
-# Getting Started with Swagger Petstore - OpenAPI 3.0
+# Getting Started with APIMATIC Calculator
 
 ## Introduction
 
-This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about
-Swagger at [https://swagger.io](https://swagger.io). In the third iteration of the pet store, we've switched to the design first approach!
-You can now help us improve the API whether it's by making changes to the definition itself or to the code.
-That way, with time, we can improve the API in general, and expose some of the new features in OAS3.
-
-_If you're looking for the Swagger 2.0/OAS 2.0 version of Petstore, then click [here](https://editor.swagger.io/?url=https://petstore.swagger.io/v2/swagger.yaml). Alternatively, you can load via the `Edit > Load Petstore OAS 2.0` menu option!_
-
-Some useful links:
-
-- [The Pet Store repository](https://github.com/swagger-api/swagger-petstore)
-- [The source API definition for the Pet Store](https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml)
-
-Find out more about Swagger: [http://swagger.io](http://swagger.io)
+Simple calculator API hosted on APIMATIC
 
 ## Install the Package
 
 Run the following command from your project directory to install the package from npm:
 
 ```ts
-npm install petstore-package-sdk@1.2.5
+npm install petstore-package-sdk@1.23.456
 ```
 
-For additional package details, see the [Npm page for the petstore-package-sdk@1.2.5 npm](https://www.npmjs.com/package/petstore-package-sdk/v/1.2.5).
+For additional package details, see the [Npm page for the petstore-package-sdk@1.23.456 npm](https://www.npmjs.com/package/petstore-package-sdk/v/1.23.456).
+
+## Test the SDK
+
+To validate the functionality of this SDK, you can execute all tests located in the `test` directory. This SDK utilizes `Jest` as both the testing framework and test runner.
+
+To run the tests, navigate to the root directory of the SDK and execute the following command:
+
+```bash
+npm run test
+```
+
+Or you can also run tests with coverage report:
+
+```bash
+npm run test:coverage
+```
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.2.5/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.23.456/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
-| `defaultHost` | `string` | *Default*: `'www.example.com'` |
 | `environment` | `Environment` | The API environment. <br> **Default: `Environment.Production`** |
 | `timeout` | `number` | Timeout for API calls.<br>*Default*: `0` |
 | `httpClientOptions` | `Partial<HttpClientOptions>` | Stable configurable http client options. |
 | `unstableHttpClientOptions` | `any` | Unstable configurable http client options. |
-| `customHeaderAuthenticationCredentials` | [`CustomHeaderAuthenticationCredentials`](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.2.5/doc/auth/custom-header-signature.md) | The credential object for customHeaderAuthentication |
 
 ### HttpClientOptions
 
@@ -67,29 +69,17 @@ The API client can be initialized as follows:
 
 ```ts
 const client = new Client({
-  customHeaderAuthenticationCredentials: {
-    'api_key': 'api_key'
-  },
   timeout: 0,
   environment: Environment.Production,
-  defaultHost: 'www.example.com',
 });
 ```
 
-## Authorization
-
-This API uses the following authentication schemes.
-
-* [`api_key (Custom Header Signature)`](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.2.5/doc/auth/custom-header-signature.md)
-
 ## List of APIs
 
-* [Pet](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.2.5/doc/controllers/pet.md)
-* [Store](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.2.5/doc/controllers/store.md)
-* [User](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.2.5/doc/controllers/user.md)
+* [Simple Calculator](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.23.456/doc/controllers/simple-calculator.md)
 
 ## Classes Documentation
 
-* [ApiResponse](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.2.5/doc/api-response.md)
-* [ApiError](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.2.5/doc/api-error.md)
+* [ApiResponse](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.23.456/doc/api-response.md)
+* [ApiError](https://www.github.com/Syed-Subtain/petstore-js-sdk/tree/1.23.456/doc/api-error.md)
 
